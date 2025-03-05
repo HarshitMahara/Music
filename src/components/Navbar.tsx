@@ -35,7 +35,10 @@ export default function Navbar({ className }: { className?: string }) {
         </MenuItem>
         <Link href={"/contact"}>
           <MenuItem setActive={setActive} active={active} item="Contact Us">
-
+          </MenuItem>
+        </Link>
+        <Link href='/cart'>
+          <MenuItem setActive={setActive} active={active} item="Cart">
           </MenuItem>
         </Link>
       </Menu>
